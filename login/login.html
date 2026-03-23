@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio de Sesión</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <div class="card">
+
+    <!-- Avatar -->
+    <div class="avatar">
+      <svg viewBox="0 0 24 24">
+        <circle cx="12" cy="8" r="4"/>
+        <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+      </svg>
+    </div>
+
+    <h1>Inicio de Sesión</h1>
+
+    <!-- Email -->
+    <div class="field">
+      <svg viewBox="0 0 24 24">
+        <rect x="2" y="4" width="20" height="16" rx="2"/>
+        <path d="M2 7l10 7 10-7"/>
+      </svg>
+      <input type="email" placeholder="Usuario"/>
+    </div>
+
+    <!-- Password -->
+    <div class="field">
+      <svg viewBox="0 0 24 24">
+        <rect x="5" y="11" width="14" height="10" rx="2"/>
+        <path d="M8 11V7a4 4 0 0 1 8 0v4"/>
+        <circle cx="12" cy="16" r="1" fill="rgba(255,255,255,0.75)" stroke="none"/>
+      </svg>
+      <input type="password" placeholder="Contraseña"/>
+    </div>
+
+    <!-- Remember + Forgot -->
+    <div class="row">
+      <label class="remember">
+        <input type="checkbox" checked/>
+        <span>Remember me</span>
+      </label>
+      <a href="#" class="forgot">Forgot Password?</a>
+    </div>
+
+    <!-- Login button -->
+    <button class="btn-login">Login</button>
+
+  </div>
+
+</body>
+</html>
